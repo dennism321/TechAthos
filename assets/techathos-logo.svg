@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 320" role="img" aria-labelledby="title desc">
+  <title id="title">TechAthos Crest</title>
+  <desc id="desc">A Spartan helmet blended with circuit traces in teal</desc>
+  <rect width="260" height="320" rx="28" fill="#05070f"/>
+  <g stroke="#15c4bb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M58 248c51 9 119-16 153-42 31-25 46-61 50-79 1-4-2-7-5-9-35-21-63-36-90-43-19-4-28-25-23-46" opacity=".35"/>
+    <path d="M196 79c-9-25-46-44-88-30-40 13-77 66-86 144-.4 3 .4 6 2.3 8.3L48 230c1.8 2.1 4.4 3.3 7.2 3.3h32.6c52.7 0 111.2-47.3 127.2-102.3 2-7-3.7-13.9-11-13.2-11.7 1.1-27 1.2-41.4-8.8" />
+    <path d="M80 170c31-55 74-73 101-79" />
+    <path d="M73 214c35-25 81-30 93-26"/>
+    <path d="M63 124c5-44 42-74 62-82" opacity=".5"/>
+    <path d="M48 178c-12-9-19-2-21.8 1.6-2.5 3.2-1 8 2.8 9.9 4.7 2.3 10.8 6.4 16 12.5" />
+    <path d="M146 175c-13 22-42 38-63 46" />
+    <path d="M119 104h24c6 0 9 8.2 4.5 12.3L124 137" />
+    <path d="M93 122v42m-20-22v32" />
+    <path d="M188 70h24m-12-12v24" />
+    <path d="M196 70c8-18 11-36-3-46-11-8-32-8-52 10" opacity=".4"/>
+  </g>
+  <g fill="#15c4bb">
+    <path d="M187 104a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm-24-12a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm-26-12a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/>
+  </g>
+  <text x="130" y="300" fill="#f7fafc" text-anchor="middle" font-family="Eurostile, 'Inter', 'Segoe UI', sans-serif" font-size="42" font-weight="700" letter-spacing=".15em">TECHATHOS</text>
+</svg>

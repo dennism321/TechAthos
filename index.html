@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity &amp; AI Insights</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Site header -->
+    <header class="site-header">
+      <img src="assets/TechAthos_Logo.svg" alt="TechAthos logo" class="logo-mark" />
+      <div>
+        <h1 class="site-title">Cybersecurity &amp; AI Insights</h1>
+        <p class="tagline">Dennis’s independent research on tech, threat intel &amp; automation</p>
+      </div>
+      <button class="subscribe-pill">Subscribe</button>
+    </header>
+
+    <!-- Main navigation -->
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Block -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Weekly Dispatch</p>
+        <h2>Exploring where cybersecurity meets AI ops</h2>
+        <p>
+          Deep dives on adversarial AI, detection engineering, and business risks for founders navigating
+          automation at scale. Curated field notes plus hands-on labs.
+        </p>
+        <div class="hero-cta">
+          <button class="primary-btn">Read the latest brief</button>
+          <button class="ghost-btn">Get alerts</button>
+        </div>
+      </div>
+      <ul class="hero-metrics">
+        <li>
+          <span class="metric-value">34</span>
+          <span class="metric-label">Incident Tear‑downs</span>
+        </li>
+        <li>
+          <span class="metric-value">12k</span>
+          <span class="metric-label">Investigators Reading</span>
+        </li>
+        <li>
+          <span class="metric-value">08</span>
+          <span class="metric-label">Lab Playbooks</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Main content area -->
+    <main class="container">
+      <!-- Left column: blog post and comments -->
+      <div class="content">
+        <article class="post">
+          <h2>Cybersecurity Trends and the Role of AI in 2025</h2>
+          <p class="post-meta">Published November&nbsp;17,&nbsp;2025</p>
+          <p>
+            As we look ahead to 2025, several key cybersecurity trends are emerging.  
+            One forecast from ExtraHop highlights three priorities: tracking new ransomware groups such as
+            RansomHub, 8Base and Cl0P, defending the continued abuse of Active Directory, and
+            preparing for increased attacks on the AI supply chain
+            <sup><a href="#cite1">[1]</a></sup>.  
+            The report notes that the rapid pace at which organisations are developing
+            artificial intelligence applications has created a large and vulnerable attack
+            surface, and adversaries are expected to aggressively target AI supply chains
+            <sup><a href="#cite1">[1]</a></sup>.
+          </p>
+          <p>
+            While AI is being used to improve security operations, it is also empowering
+            criminals.  CERT‑MU’s 2025 trends report warns that adversaries are using AI
+            and machine learning to identify vulnerabilities, craft realistic deepfakes and
+            automate attacks.  Tools like FraudGPT and WormGPT provide ready‑made resources
+            to help cybercriminals launch sophisticated campaigns
+            <sup><a href="#cite2">[2]</a></sup>.  
+            Deepfake incidents increased markedly in 2024, demonstrating how AI can be
+            weaponised
+            <sup><a href="#cite3">[3]</a></sup>.
+          </p>
+          <p>
+            Together, these predictions suggest that businesses should prioritise securing their AI
+            development pipelines and invest in identity‑first security strategies.  As attackers
+            leverage generative AI to automate reconnaissance and social engineering, defenders
+            must adopt AI‑assisted threat detection and maintain robust security hygiene across
+            supply chains.
+          </p>
+          <!-- Footnotes for citations -->
+          <ol class="footnotes">
+            <li id="cite1">
+              ExtraHop’s 2025 forecast notes that ransomware groups RansomHub, 8Base and
+              Cl0P will drive extortion, Active Directory will remain a significant
+              post‑exploitation target, and rapid AI development will create a vulnerable
+              supply‑chain attack surface.
+            </li>
+            <li id="cite2">
+              CERT‑MU observes that cybercriminals are using AI to identify
+              vulnerabilities, generate deepfakes and automate attacks; tools like
+              FraudGPT and WormGPT make these capabilities accessible.
+            </li>
+            <li id="cite3">
+              Deepfake attacks increased from 50&nbsp;% to 60&nbsp;% in 2024, illustrating the
+              growing sophistication of AI‑powered social engineering.
+            </li>
+          </ol>
+        </article>
+
+        <!-- Featured resource cards -->
+        <section class="featured-grid">
+          <article class="feature-card">
+            <p class="eyebrow">Playbook</p>
+            <h3>Zero‑Day Response Template</h3>
+            <p>Stepwise triage questions and automation hooks for seizing indicators in under 30 minutes.</p>
+            <a href="#">Launch template →</a>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">Toolkit</p>
+            <h3>LLM Attack Surface Checklist</h3>
+            <p>40 questions to pressure test AI supply chains before release day.</p>
+            <a href="#">Review checklist →</a>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">Data Story</p>
+            <h3>Signals Radar</h3>
+            <p>Weekly datasets on ransomware crews, leak site chatter and CVE weaponisation.</p>
+            <a href="#">View signals →</a>
+          </article>
+        </section>
+
+        <!-- Comments section -->
+        <section class="comments">
+          <h3>Comments</h3>
+          <form id="comment-form">
+            <label for="comment-name">Name</label>
+            <input type="text" id="comment-name" required />
+            <label for="comment-text">Comment</label>
+            <textarea id="comment-text" rows="4" required></textarea>
+            <button type="submit">Post Comment</button>
+          </form>
+          <div id="comments-list"></div>
+        </section>
+      </div>
+
+      <!-- Right column: sidebar -->
+      <aside class="sidebar">
+        <!-- Search form -->
+        <div class="search">
+          <input type="search" placeholder="Search" class="search-input" />
+          <button class="search-btn">Search</button>
+        </div>
+        <!-- Let's Connect section -->
+        <div class="connect">
+          <h3>Let's Connect</h3>
+          <div class="social-icons">
+            <!-- Email icon -->
+            <a href="mailto:your-email@example.com" class="icon-link" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg>
+            </a>
+            <!-- LinkedIn icon -->
+            <a href="https://www.linkedin.com/in/your-profile" class="icon-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Recent posts list -->
+        <div class="recent-posts">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li>
+              <span class="post-type">Analysis</span>
+              <a href="#">Future of Quantum‑Resistant Cryptography</a>
+            </li>
+            <li>
+              <span class="post-type">Guide</span>
+              <a href="#">Building a Zero‑Trust Architecture</a>
+            </li>
+            <li>
+              <span class="post-type">Ethics</span>
+              <a href="#">Ethical Considerations in AI‑Driven Security</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="brand-card">
+          <img src="assets/techathos-logo.svg" alt="TechAthos logo badge" />
+          <p>Human-centric coverage of automation, adversaries and resilience from the TechAthos desk.</p>
+        </div>
+
+        <!-- Signal board -->
+        <div class="signal-board">
+          <h3>Signal Board</h3>
+          <ul>
+            <li>
+              <span class="signal-label">Threat Feed</span>
+              RansomHub pivots to hitting AI annotation vendors.
+            </li>
+            <li>
+              <span class="signal-label warning">Patch Now</span>
+              CVE‑2025‑1104 exploited to poison training data lakes.
+            </li>
+            <li>
+              <span class="signal-label">Tool Drop</span>
+              FraudGPT 3.1 adds native voice cloning macros.
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
