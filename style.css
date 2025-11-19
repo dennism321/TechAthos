@@ -5,11 +5,27 @@
   padding: 0;
 }
 
-body {
+body,
+button,
+input,
+textarea {
   font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  color: #e5e7f1;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: inherit;
+}
+
+body {
   line-height: 1.7;
   background-color: #03050b;
-  color: #e5e7f1;
 }
 
 /* Site header */
@@ -27,7 +43,7 @@ body {
 }
 
 .logo-mark {
-  width: 126.5px;
+  width: 145px;
   height: auto;
   filter: drop-shadow(0 8px 18px rgba(20, 184, 166, 0.35));
 }
