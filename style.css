@@ -83,6 +83,10 @@ body {
   position: relative;
 }
 
+.nav-links a.active {
+  opacity: 1;
+}
+
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -504,6 +508,113 @@ form button:hover {
   color: #fecaca;
 }
 
+.reports-page {
+  width: 90%;
+  margin: 0 auto 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.reports-hero {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 2rem;
+  background: linear-gradient(120deg, rgba(20, 184, 166, 0.1), rgba(99, 102, 241, 0.08));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.reports-hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.report-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1 1 240px;
+  justify-content: flex-end;
+}
+
+.report-stats > div {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  background: rgba(7, 11, 23, 0.6);
+  min-width: 140px;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.report-card {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: rgba(12, 16, 28, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.report-card ul {
+  padding-left: 1.1rem;
+  color: #d1d5db;
+}
+
+.report-card a {
+  color: #a5b4fc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.report-card a:hover {
+  text-decoration: underline;
+}
+
+.report-card .coming-soon {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.report-timeline {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: rgba(8, 12, 24, 0.7);
+}
+
+.report-timeline h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-size: 0.95rem;
+  color: #c7d2fe;
+}
+
+.timeline-rows {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-rows span {
+  display: block;
+  font-size: 0.85rem;
+  color: #a5b4fc;
+  letter-spacing: 0.05rem;
+}
+
+.timeline-rows p {
+  margin-top: 0.3rem;
+  color: #d1d5db;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .site-header {
@@ -531,5 +642,15 @@ form button:hover {
 
   .hero-cta {
     flex-direction: column;
+  }
+
+  .reports-hero {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .report-stats {
+    flex-direction: column;
+    align-items: stretch;
   }
 }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Security Reports | TechAthos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Site header -->
+    <header class="site-header">
+      <img src="assets/TechAthos_Logo.svg" alt="TechAthos logo" class="logo-mark" />
+      <div>
+        <h1 class="site-title">Cybersecurity &amp; AI Insights</h1>
+        <p class="tagline">Dennis’s independent research on tech, threat intel &amp; automation</p>
+      </div>
+      <button class="subscribe-pill">Subscribe</button>
+    </header>
+
+    <!-- Main navigation -->
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reports.html" class="active">Report</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="reports-page">
+      <section class="reports-hero">
+        <div>
+          <p class="eyebrow">Reference Desk</p>
+          <h2>Security reports you should brief against weekly</h2>
+          <p>
+            Curated threat intelligence digests, industry studies, and internal red-team retrospectives. Use this
+            hub to anchor your next leadership briefing or tabletop exercise.
+          </p>
+        </div>
+        <div class="report-stats">
+          <div>
+            <span class="metric-value">15</span>
+            <span class="metric-label">Annual Flagships</span>
+          </div>
+          <div>
+            <span class="metric-value">42</span>
+            <span class="metric-label">Flash Notes</span>
+          </div>
+          <div>
+            <span class="metric-value">18</span>
+            <span class="metric-label">Playbooks</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="reports-grid">
+        <article class="report-card">
+          <p class="eyebrow">Industry Study</p>
+          <h3>Verizon DBIR 2024</h3>
+          <p>
+            Twelve hundred breaches across 20+ industries, highlighting social engineering spikes and credential
+            abuse. Includes actionable mitigations that map to ATT&amp;CK.
+          </p>
+          <ul>
+            <li>Sectors: Finance, Healthcare, Tech</li>
+            <li>Primary vector: Social engineering &amp; phishing</li>
+            <li>Defender focus: MFA hardening, phishing-resilient flows</li>
+          </ul>
+          <a href="https://www.verizon.com/business/resources/reports/dbir/" target="_blank" rel="noopener">Read DBIR →</a>
+        </article>
+        <article class="report-card">
+          <p class="eyebrow">Threat Digest</p>
+          <h3>Mandiant M-Trends 2024</h3>
+          <p>
+            Median dwell time data and live-case telemetry showing faster exploitation of edge devices and SaaS
+            identities. Contains deep dives on UNC5537 and state-aligned crews.
+          </p>
+          <ul>
+            <li>Median dwell time: 10 days</li>
+            <li>Highlighted sectors: Manufacturing, Energy</li>
+            <li>Recommended action: SaaS posture pathing</li>
+          </ul>
+          <a href="https://www.mandiant.com/resources/m-trends" target="_blank" rel="noopener">Download M-Trends →</a>
+        </article>
+        <article class="report-card">
+          <p class="eyebrow">Red Team Debrief</p>
+          <h3>TechAthos AI Supply Chain Playbook</h3>
+          <p>
+            Field-tested workflow to validate LLM pipelines, covering data provenance, eval attack chains and
+            guardrail bypass labs.
+          </p>
+          <ul>
+            <li>Scenario packs: Model theft, data poisoning</li>
+            <li>Controls: Eval gating, release reviews</li>
+            <li>Bonus: Response checklist for AI-SOC</li>
+          </ul>
+          <a href="#" class="coming-soon">Coming soon</a>
+        </article>
+      </section>
+
+      <section class="report-timeline">
+        <h3>What dropped recently</h3>
+        <div class="timeline-rows">
+          <div>
+            <span>Jan 2025</span>
+            <p>ENISA threat landscape focusing on AI-enabled extortion crews.</p>
+          </div>
+          <div>
+            <span>Dec 2024</span>
+            <p>IBM X-Force found 28% year-over-year growth in QR-code phishing.</p>
+          </div>
+          <div>
+            <span>Nov 2024</span>
+            <p>Google TAG observed multi-cloud persistence kits sold on closed forums.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
