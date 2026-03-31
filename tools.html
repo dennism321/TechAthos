@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechAthos | Tools</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <img src="assets/TechAthos_Logo.svg" alt="TechAthos logo" class="logo-mark" />
+      <div>
+        <h1 class="site-title">Cybersecurity &amp; AI Insights</h1>
+        <p class="tagline">Dennis’s independent research on tech, threat intel &amp; automation</p>
+      </div>
+      <button class="subscribe-pill">Subscribe</button>
+    </header>
+
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="#" class="active">Tools</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="tool-page" id="tools">
+        <div class="tool-page-header">
+          <p class="eyebrow">Tools</p>
+          <h2>Field Kits for the Modern Defender</h2>
+          <p>
+            Curated playbooks and utilities the team leans on when triaging incidents, stabilising infrastructure, and turning telemetry into
+            evidence. Browse by discipline to find the right workflow accelerator.
+          </p>
+        </div>
+        <div class="tool-categories">
+          <article class="tool-category">
+            <div class="category-head">
+              <h3>Forensics</h3>
+              <p>Disk, memory, and timeline tooling for evidence-first investigations.</p>
+            </div>
+            <ul class="tool-list">
+              <li>
+                <h4>Autopsy App</h4>
+                <p>
+                  Open-source GUI that layers Sleuth Kit modules for rapid triage, artifact discovery, and cross-case correlation—ideal for
+                  combining timeline, registry, and mobile data in one review pane.
+                </p>
+              </li>
+              <li>
+                <h4>FTK Imager</h4>
+                <p>
+                  Lightweight acquisition utility that captures pristine disk images, volatile memory, and logical files while validating
+                  hashes, making it perfect for courtroom-ready collections from compromised hosts.
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="tool-category">
+            <div class="category-head">
+              <h3>Incident Response</h3>
+              <p>Containment and hunt kits that shrink dwell time.</p>
+            </div>
+            <ul class="tool-list">
+              <li>
+                <h4>Velociraptor</h4>
+                <p>
+                  Endpoint query engine that lets responders sweep fleets for indicators, pull targeted artifacts, and automate scoping
+                  playbooks using VQL collections.
+                </p>
+              </li>
+              <li>
+                <h4>Red Canary Threat Intel Feeds</h4>
+                <p>
+                  Curated behavioral detections mapped to ATT&amp;CK, helping incident leads validate hypotheses and enrich SIEM alerts with
+                  ready-to-run hunt queries.
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="tool-category">
+            <div class="category-head">
+              <h3>Automation</h3>
+              <p>Workflow engines to codify repeatable responses.</p>
+            </div>
+            <ul class="tool-list">
+              <li>
+                <h4>StackStorm</h4>
+                <p>
+                  Event-driven automation platform that wires alerts to vetted response packs, ensuring approvals, playbook branching, and
+                  evidence handling are scripted end-to-end.
+                </p>
+              </li>
+              <li>
+                <h4>GitHub Actions Blueprints</h4>
+                <p>
+                  Reusable pipelines for IaC checks, dependency scanning, and artifact signing so DevSecOps teams can gate deployments with the
+                  same guardrails every run.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
