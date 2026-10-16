@@ -1,0 +1,94 @@
+# Techathos
+
+> Techathos builds fast websites and AI automation for small and growing businesses. Founded by Dennis Merenguelli and based in Connecticut, we work remotely with clients nationwide. First consultation is free.
+
+- Website: https://techathos.com/
+- Email: Dennis@TechAthos.com
+- Phone: 203-350-3237
+- Hours: Monday–Friday, 8am–6pm ET
+- Location: Connecticut, USA (remote-first, clients nationwide)
+- Founder: Dennis Merenguelli (https://www.linkedin.com/in/dennis-merenguelli/)
+
+## Services
+
+- **Website Development**: Custom, mobile-first sites built from scratch — no bloated page builders, no cookie-cutter templates. Landing pages and business sites, e-commerce on Shopify or WooCommerce, and fast load times.
+- **AI Automation**: Agents and workflows that answer leads, book calls and update your CRM while you sleep: 24/7 AI chat and voice agents, lead routing and follow-up, and custom GPT assistants.
+- **E-Commerce Builds**: Storefronts with secure checkout, payments, shipping and tax configured from day one, including product and catalog setup and abandoned-cart recovery.
+- **SEO Foundations**: Keyword research, page titles, meta tags, Google Business Profile and Search Console setup, local business schema, FAQ markup and analytics dashboards.
+- **Custom Integrations**: Online booking, payment links, CRM and email-list connections added to a new or existing site, including Calendly and booking flows, CRM and email sync, and API and webhook work.
+- **Social Media Management**: Consistent, on-brand posting, community management and short-form video, with content calendars, graphics and captions, and a monthly strategy call.
+
+## Pricing
+
+Prices are the current launch rate, 50% off the standard rate shown in parentheses. Every project is scoped and given a fixed quote after a short discovery call.
+
+### Website Development
+
+- Landing Page: $375–$750 (standard $750–$1,500). A single, mobile-first page built to capture leads for a launch, promotion or event.
+- Business Website: $1,250–$2,500 (standard $2,500–$5,000). 5–7 custom pages with contact forms, maps and on-page SEO, built so you can easily update it.
+- E-Commerce Store: $2,000–$4,500 (standard $4,000–$9,000). A Shopify or WooCommerce store with product setup, secure checkout, payments and shipping.
+- Website Redesign: $1,000–$2,750 (standard $2,000–$5,500). Modernize an outdated site with a fresh look, faster load times and clearer calls to action.
+- SEO Foundations: $300–$600 (standard $600–$1,200). Keyword research, page titles and meta tags, Google Business Profile and Search Console setup.
+- Custom Integrations: $250–$1,000 (standard $500–$2,000). Online booking, payment links, CRM and email-list hooks added to a new or existing site.
+
+### AI Automation Packages
+
+- AI Kickstart: $500–$1,250 setup (standard $1,000–$2,500). One AI agent or workflow, live on your site and connected to your inbox.
+- AI Growth: $1,250–$3,000 setup (standard $2,500–$6,000). A multi-agent system with CRM sync, follow-up sequences and reporting.
+- AI Scale: $3,000–$7,000 setup (standard $6,000–$14,000). Custom AI operations for your whole pipeline, with dashboards and monthly optimization.
+- AI Care Plan: $200–$600 per month (standard $400–$1,200). Monitoring, prompt tuning, new workflows and a monthly performance review.
+
+### Social Media Management
+
+- Starter: $225–$350 per month (standard $450–$700). Consistent, on-brand posting for businesses just getting started.
+- Growth: $450–$700 per month (standard $900–$1,400). More content and active engagement to grow your audience.
+- Premium: $800–$1,250 per month (standard $1,600–$2,500). Full-service management, including short-form video and ads.
+
+### Website Care & Growth
+
+- Website Care Plan: $40–$100 per month (standard $75–$200). Hosting, security monitoring, backups, updates and small content edits every month.
+- SEO & Content: $250–$500 per month (standard $500–$1,000). Two optimized blog posts a month, local SEO and keyword tracking with a clear report.
+- Paid Ads Management: $200–$500 per month (standard $400–$1,000). Google and Meta campaigns built, monitored and tuned to bring in leads.
+
+### Social Media Setup
+
+- Profile Setup & Brand Kit: $150–$300 (standard $300–$600). New or refreshed profiles with bios, cover images and branded post templates.
+- Audit & 90-Day Strategy: $125–$250 (standard $250–$500). A review of your accounts and competitors, plus a clear 90-day content plan.
+- Content Starter Pack: $175–$350 (standard $350–$700). A month of ready-to-post content: 15 branded graphics with captions and hashtags.
+
+### Website Packages
+
+- Bronze: $1,250 (standard $2,500). A professional site that gets you found. Perfect for getting online fast.
+- Silver: $2,500 (standard $5,000). A bigger site built to win local search and turn visitors into calls.
+- Gold: $5,000 (standard $10,000). A full online store plus everything a growing business needs.
+
+## FAQ
+
+**Why are your prices 50% off right now?**
+We are filling our build calendar for the quarter, so every package on this page is discounted 50% from our standard rate. The scope, quality and support are identical — you just lock in launch pricing.
+
+**How fast can my website be live?**
+Bronze builds go live in about 3 business days, Silver in about 7 and Gold in about 14, counted from the moment we have your logo, photos and basic business details.
+
+**What does “SEO built in” actually mean?**
+Every page ships with a unique title and description, local business markup, FAQ markup where it fits, fast mobile pages, a sitemap, and Google Analytics and Search Console connected on day one.
+
+**Do I own my website?**
+Yes. You own your domain, your content and your photos. Hosting and ongoing updates are included for 6 months, then just $17.50 a month with no long contract.
+
+**What exactly is AI automation?**
+Software agents and workflows that handle the repetitive parts of your business — answering chats, qualifying leads, booking calls, sending follow-ups and updating your CRM — 24/7, without you hiring more staff.
+
+**Can you work with my existing site?**
+Absolutely. We regularly add AI agents, booking, payment links and CRM integrations to sites we did not build, and we modernize outdated designs without losing your search rankings.
+
+**How do we get started?**
+Send your project details through the contact form or book a call. Your first consultation is free, and we reply the same business day.
+
+## Pages
+
+- [Home](https://techathos.com/): services, AI automation, pricing, FAQ and contact form
+- [About Dennis](https://techathos.com/about.html): background of the founder, a security architect and technology strategist
+- [Insights](https://techathos.com/insights.html): cybersecurity and AI security research
+- [Security Reports](https://techathos.com/reports.html): curated threat intelligence reports
+- [Tools](https://techathos.com/tools.html): forensics, incident response and automation tools
