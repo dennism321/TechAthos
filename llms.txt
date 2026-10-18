@@ -88,7 +88,3 @@ Send your project details through the contact form or book a call. Your first co
 ## Pages
 
 - [Home](https://techathos.com/): services, AI automation, pricing, FAQ and contact form
-- [About Dennis](https://techathos.com/about.html): background of the founder, a security architect and technology strategist
-- [Insights](https://techathos.com/insights.html): cybersecurity and AI security research
-- [Security Reports](https://techathos.com/reports.html): curated threat intelligence reports
-- [Tools](https://techathos.com/tools.html): forensics, incident response and automation tools
