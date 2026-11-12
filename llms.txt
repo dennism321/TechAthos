@@ -90,3 +90,9 @@ Send your project details through the contact form or book a call. Your first co
 ## Pages
 
 - [Home](https://techathos.com/): services, AI automation, pricing, FAQ and contact form
+- [Website Development](https://techathos.com/services/web-development/): Custom, mobile-first websites for small businesses: landing pages, business sites and redesigns with SEO built in. Based in Connecticut. Free consultation.
+- [AI Automation](https://techathos.com/services/ai-automation/): AI chat and voice agents and workflows that answer leads, book calls, follow up and update your CRM 24/7. Based in Connecticut. Free consultation.
+- [E-Commerce](https://techathos.com/services/ecommerce/): Shopify and WooCommerce stores with product setup, secure checkout, payments, shipping and tax configured from day one. Based in Connecticut.
+- [SEO](https://techathos.com/services/seo/): Keyword research, titles and meta tags, local business schema, Google Business Profile and Search Console setup, plus monthly local SEO and content.
+- [Social Media Management](https://techathos.com/services/social-media-management/): Consistent, on-brand posting, community management, short-form video and ads. Month-to-month plans plus one-time profile setup. Based in Connecticut.
+- [Custom Integrations](https://techathos.com/services/integrations/): Online booking, payment links, CRM and email-list connections added to a new or existing website, including Calendly flows and API and webhook work.
