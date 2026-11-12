@@ -34,4 +34,4 @@ summary:after{content:"+";float:right;color:var(--greek);font-size:1.3rem;line-h
 .foot{border-top:1px solid var(--line);padding:56px 0 24px;background:var(--ink)}.foot-grid{display:grid;gap:32px;grid-template-columns:1.4fr 1fr 1fr}
 .foot-h{font-family:var(--body);font-size:.72rem;letter-spacing:.24em;color:var(--muted);margin-bottom:12px}.foot-list{list-style:none;padding:0;margin:0}.foot-list li{margin:8px 0}.foot-list a{color:var(--cream);text-decoration:none}.foot-list a:hover,.foot-list a[aria-current]{color:var(--greek)}
 .foot-base{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;font-size:.8rem}.social a{color:var(--cream)}
-@media (max-width:760px){.top nav{display:none}.bar .btn-sm{margin-left:auto}.hero{padding:48px 0}.sec{padding:56px 0}.foot-grid{grid-template-columns:1fr}.btn{width:100%}.cta-row{flex-direction:column}}
+@media (max-width:760px){.top nav{display:none}.bar .btn-sm{margin-left:auto}.hero{padding:48px 0}.sec{padding:56px 0}.foot-grid{grid-template-columns:1fr}.btn{width:100%}.top .btn{width:auto}.cta-row{flex-direction:column}}
